@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "alpharizer",
+	"version": "${version}",
+	"name": "Alpharizer",
+	"description": "This mod adds old Minecraft stuff to new Minecraft versions!",
+	"authors": [
+		"Zamhedonia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/alpharizer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.zamhedonia.alpharizer.Alpharizer"
+		],
+		"client": [
+			"net.zamhedonia.alpharizer.AlpharizerClient"
+		],
+		"fabric-datagen": [
+			"net.zamhedonia.alpharizer.AlpharizerDataGenerator"
+		]
+	},
+	"mixins": [
+		"alpharizer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
