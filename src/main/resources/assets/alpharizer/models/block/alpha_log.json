@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "alpharizer:block/alpha_log_top",
+      "side": "alpharizer:block/alpha_log"
+    }
+  }

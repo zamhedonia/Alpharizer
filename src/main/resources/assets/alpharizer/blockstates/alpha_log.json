@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": {"model": "alpharizer:block/alpha_log"}
+    }
+}

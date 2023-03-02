@@ -33,6 +33,9 @@ public class ModBlocks {
 
         public static final Block Alpha_Planks = registerBlock("alpha_planks",
         new Block(FabricBlockSettings.of(Material.WOOD).hardness(0.5f).resistance(3f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.ALPHARIZER);
+       
+        public static final Block Alpha_Log = registerBlock("alpha_log",
+        new Block(FabricBlockSettings.of(Material.WOOD).hardness(0.5f).resistance(2f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.ALPHARIZER);
 
         public static final Block ALPHA_RICE_BLOCK = registerBlock("alpha_rice_block",
         new AlphaRiceBlock(AbstractBlock.Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)), ModItemGroup.ALPHARIZER);
