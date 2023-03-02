@@ -3,6 +3,7 @@ package net.zamhedonia.alpharizer.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -18,7 +19,16 @@ import net.zamhedonia.alpharizer.item.ModItemGroup;
 public class ModBlocks {
     //Add Blocks here
     public static final Block Alpha_Grass_Block = registerBlock("alpha_grass_block",
-        new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).ticksRandomly().strength(0.6f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.ALPHARIZER);
+        new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).ticksRandomly().hardness(0.6f).resistance(0.6f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.ALPHARIZER);
+
+        public static final Block Alpha_Cobblestone = registerBlock("alpha_cobblestone",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(2f).resistance(6f).sounds(BlockSoundGroup.STONE)), ModItemGroup.ALPHARIZER);
+
+        public static final Block Classic_Cobblestone = registerBlock("classic_cobblestone",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(2f).resistance(6f).sounds(BlockSoundGroup.STONE)), ModItemGroup.ALPHARIZER);
+
+        public static final Block ALPHA_RICE_BLOCK = registerBlock("alpha_rice_block",
+        new AlphaRiceBlock(AbstractBlock.Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)), ModItemGroup.ALPHARIZER);
 
 
 

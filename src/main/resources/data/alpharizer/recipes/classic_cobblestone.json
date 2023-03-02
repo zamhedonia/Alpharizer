@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "alpharizer:alpha_rice"
+        },
+        {
+            "item": "alpharizer:alpha_cobblestone"
+        }
+    ],
+    "result": {
+        "item": "alpharizer:classic_cobblestone",
+        "count": 1
+    }
+}

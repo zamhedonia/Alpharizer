@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "alpharizer:block/alpha_rice_stage0"
+    }
+  }

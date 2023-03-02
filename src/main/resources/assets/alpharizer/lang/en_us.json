@@ -1,5 +1,8 @@
 {
     "item.alpharizer.alpha_rice_seeds": "Alpha Rice Seeds",
     "item.alpharizer.alpha_rice": "Alpha Rice",
-    "block.alpharizer.alpha_grass_block": "Alpha Grass Block"
+    "block.alpharizer.alpha_grass_block": "Alpha Grass Block",
+    "block.alpharizer.alpha_cobblestone": "Alpha Cobblestone",
+    "block.alpharizer.classic_cobblestone": "Classic Cobblestone",
+    "item.alpharizer.alpha_rice_block": "Alpha Rice Crop"
 }
