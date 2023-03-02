@@ -14,12 +14,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.zamhedonia.alpharizer.Alpharizer;
+import net.zamhedonia.alpharizer.block.custom.AlphaGrassBlock;
 import net.zamhedonia.alpharizer.item.ModItemGroup;
 
 public class ModBlocks {
     //Add Blocks here
     public static final Block Alpha_Grass_Block = registerBlock("alpha_grass_block",
-        new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).ticksRandomly().hardness(0.6f).resistance(0.6f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.ALPHARIZER);
+        new AlphaGrassBlock(AbstractBlock.Settings.of(Material.SOLID_ORGANIC).ticksRandomly().hardness(0.6f).resistance(0.6f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.ALPHARIZER);
 
         public static final Block Alpha_Cobblestone = registerBlock("alpha_cobblestone",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(2f).resistance(6f).sounds(BlockSoundGroup.STONE)), ModItemGroup.ALPHARIZER);
