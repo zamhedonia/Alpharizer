@@ -14,6 +14,9 @@ public class ModItems {
     public static final Item ALPHA_RICE_SEEDS = registerItem("alpha_rice_seeds",
         new Item(new FabricItemSettings()));
     
+    public static final Item ALPHA_RICE = registerItem("alpha_rice",
+        new Item(new FabricItemSettings()));
+    
 
 
     private static Item registerItem(String name, Item item) {
@@ -21,7 +24,8 @@ public class ModItems {
     }
 
     public static void addItemsToItemGroup() {
-            addItemsToItemGroup(ModItemGroup.ALPHARIZER, ALPHA_RICE_SEEDS);
+        addItemsToItemGroup(ModItemGroup.ALPHARIZER, ALPHA_RICE_SEEDS);
+        addItemsToItemGroup(ModItemGroup.ALPHARIZER, ALPHA_RICE);
     }
 
     public static void addItemsToItemGroup(ItemGroup group, Item item) {
