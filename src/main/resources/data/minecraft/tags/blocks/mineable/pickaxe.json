@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "alpharizer:classic_cobblestone",
-      "alpharizer:alpha_cobblestone"
+      "alpharizer:alpha_cobblestone",
+      "alpharizer:alpha_stone"
     ]
   }

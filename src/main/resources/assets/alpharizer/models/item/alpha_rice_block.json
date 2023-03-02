@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "alpharizer:block/alpha_rice_stage3.png"
+        "layer0": "alpharizer:block/alpha_rice_stage3"
     }
 }
