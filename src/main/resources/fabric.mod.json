@@ -3,15 +3,15 @@
 	"id": "alpharizer",
 	"version": "${version}",
 	"name": "Alpharizer",
-	"description": "This mod adds old Minecraft stuff to new Minecraft versions!",
+	"description": "This mod adds a new crop type you can craft alpha and classic style blocks with!",
 	"authors": [
 		"Zamhedonia"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/zamhedonia/Alpharizer",
+		"sources": "https://github.com/zamhedonia/Alpharizer"
 	},
-	"license": "CC0-1.0",
+	"license": "CC BY-NC-SA 4.0",
 	"icon": "assets/alpharizer/icon.png",
 	"environment": "*",
 	"entrypoints": {
