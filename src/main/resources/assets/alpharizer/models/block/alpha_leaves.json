@@ -1,0 +1,5 @@
+{   "parent": "block/cube_all",
+    "textures": {
+        "all": "alpharizer:block/alpha_leaves"
+    }
+}

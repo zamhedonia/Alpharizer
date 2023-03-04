@@ -9,5 +9,6 @@ public class AlpharizerClient implements ClientModInitializer{
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ALPHA_RICE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ALPHA_LEAVES, RenderLayer.getTranslucent());
     }
 }

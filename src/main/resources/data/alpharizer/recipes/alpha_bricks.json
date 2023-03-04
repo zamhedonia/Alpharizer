@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "alpharizer:alpha_rice"
+        },
+        {
+            "item": "minecraft:bricks"
+        }
+    ],
+    "result": {
+        "item": "alpharizer:alpha_bricks",
+        "count": 1
+    }
+}

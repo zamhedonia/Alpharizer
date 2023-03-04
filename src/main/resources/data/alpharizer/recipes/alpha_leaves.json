@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "alpharizer:alpha_rice"
+        },
+        {
+            "tag": "minecraft:leaves"
+        }
+    ],
+    "result": {
+        "item": "alpharizer:alpha_leaves",
+        "count": 1
+    }
+}

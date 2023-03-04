@@ -3,6 +3,8 @@
     "values": [
       "alpharizer:classic_cobblestone",
       "alpharizer:alpha_cobblestone",
-      "alpharizer:alpha_stone"
+      "alpharizer:alpha_stone",
+      "alpharizer:alpha_bricks",
+      "alpharizer:classic_bricks"
     ]
   }

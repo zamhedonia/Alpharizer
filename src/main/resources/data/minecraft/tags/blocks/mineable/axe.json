@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-  
+      "alpharizer:alpha_planks",
+      "alpharizer:alpha_log"
     ]
   }

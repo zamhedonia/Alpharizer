@@ -8,6 +8,9 @@
     "block.alpharizer.alpha_cobblestone": "Alpha Cobblestone",
     "block.alpharizer.classic_cobblestone": "Classic Cobblestone",
     "block.alpharizer.alpha_planks": "Alpha Oak Planks",
-    "block.alpharizer.alpha_log": "Alpha Oak Log"
+    "block.alpharizer.alpha_log": "Alpha Oak Log",
+    "block.alpharizer.alpha_bricks": "Alpha Bricks",
+    "block.alpharizer.classic_bricks": "Classic Bricks",
+    "block.alpharizer.alpha_leaves": "Alpha Leaves"
 
 }
