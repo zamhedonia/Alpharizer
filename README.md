@@ -7,3 +7,5 @@
 - Plant the seeds on farmland to grow Alpha Rice
 - Combine blocks with Alpha Rice in a crafting field to craft their respective alpha style version
 - Combine alpha style blocks with Alpha Rice to craft their respective classic style version
+
+![Screenshot](https://github.com/zamhedonia/Alpharizer/blob/master/Alpharizer-Screenshot.png?raw=true)
